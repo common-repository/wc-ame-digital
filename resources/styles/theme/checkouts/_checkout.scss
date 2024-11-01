@@ -1,0 +1,96 @@
+#ame-digital-qrcode-thankyou {
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 1.9em;
+    #ame-digital-top {
+        h2 {
+            text-align: center;
+        }
+        img {
+            margin: 0 auto;
+            padding: 20px;
+        }
+    }
+    .wad-qrcode-container {
+        img {
+            margin: 0 auto;
+        }
+        .wad-qrcode-price-container {
+            padding-top: 20px;
+            p {
+                text-align: center;
+                line-height: 0.4;
+            }
+            #wad-qrcode-price {
+                color: #ff1f1f;
+                font-size: 23px;
+                font-weight: 600;
+            }
+            #wad-qrcode-cashback {
+                strong {
+                    color: #0073e6;
+                }
+                font-size: 17px;
+            }
+        }
+        #wad-qrcode-footer {
+            border-left: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            margin: 0 auto;
+            width: 400px;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #ame-digital-qrcode-thankyou {
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px 5px #cccccc;
+        .wad-qrcode-container {
+            #wad-qrcode-footer {
+                width: 300px;
+            }
+        }
+        .wad-qrcode-mobile-container {
+            text-align: center;
+            .wad-qrcode-price-container {
+                padding-top: 20px;
+                p {
+                    text-align: center;
+                    line-height: 0.4;
+                }
+                #wad-qrcode-price {
+                    color: #ff1f1f;
+                    font-size: 23px;
+                    font-weight: 600;
+                }
+                #wad-qrcode-cashback {
+                    strong {
+                        color: #0073e6;
+                    }
+                    font-size: 17px;
+                }
+            }
+            .wad-btn-primary {
+                background-color: #170885;
+                border-radius: 2px;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                margin: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #ame-digital-qrcode-thankyou {
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px 5px #cccccc;
+    }
+}

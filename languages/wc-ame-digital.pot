@@ -1,0 +1,246 @@
+# Copyright (C) 2022 Apiki
+# This file is distributed under the same license as the Pagamento QR Code Ame Digital package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pagamento QR Code Ame Digital 1.2.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-ame-digital\n"
+"POT-Creation-Date: 2022-03-23 12:47:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.3\n"
+
+#: src/Entities/Pqad_Settings.php:67
+msgid ""
+"Se você gostou do plugin %s, deixe-nos uma avaliação com %s no "
+"WordPress.org. Desde já nosso obrigado!"
+msgstr ""
+
+#: src/Entities/Pqad_Settings.php:67
+msgid "Pagamento QRCode Ame Digital"
+msgstr ""
+
+#: src/Entities/Pqad_Settings.php:70
+msgid "Suporte Apiki"
+msgstr ""
+
+#: src/Entities/Pqad_Settings.php:73
+msgid "Deixe-nos uma avaliação"
+msgstr ""
+
+#: src/Entities/Pqad_Settings.php:76
+msgid "Versão:"
+msgstr ""
+
+#: src/Providers/Dashboard/Pqad_Options.php:27
+msgid "Configurações"
+msgstr ""
+
+#: src/Providers/Dashboard/Pqad_Options.php:44
+msgid "Suporte da Apiki"
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:118
+msgid "Ame: Pagamento autorizado."
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:127
+#: src/Providers/Orders/Pqad_QrCode.php:177
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:45
+msgid "Ame: Pagamento cancelado."
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:186
+msgid "Ame: Pagamento não cancelado."
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:206
+#: src/Providers/Orders/Pqad_QrCode.php:247
+msgid "Ame: Pagamento não reembolsado."
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:210
+msgid "Ame: Pagamento totalmente reembolsado."
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:291
+msgid "Ame: QRCode foi excluído."
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:300
+msgid "Ame: QRCode não foi excluído."
+msgstr ""
+
+#: src/Providers/Orders/Pqad_QrCode.php:319
+msgid "Exclusão a cada "
+msgstr ""
+
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:96
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:97
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:129
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:130
+msgid "Número"
+msgstr ""
+
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:105
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:106
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:138
+#: src/Providers/Woocommerce/Pqad_Checkouts.php:139
+msgid "Bairro"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:25
+msgid "Ame"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:26
+msgid "Método de Pagamento Ame Digital"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:55
+msgid "Habilitar"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:56
+msgid "Habilitar pagamento"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:62
+msgid "Access Token"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:64
+msgid "Entre em contato com a AME para conseguir seu access token."
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:68
+msgid "Título"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:70
+msgid "Altera o título que o usuário visualiza na página de checkout."
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:71 views/orders/qrcode.php:11
+msgid "Ame Digital"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:75
+msgid "Descrição"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:78
+msgid "Altera a descrição que o usuário visualiza na página de checkout."
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:79
+msgid "Pague com seu celular através do nosso método de pagamento Ame."
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:82
+msgid "Título do Pagamento"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:84
+msgid "Alter o título que o usuário visualiza durante o pagamento do pedido."
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:85
+msgid "Pagar com Ame"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:88
+msgid "Validade do QRCode"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:90
+msgid ""
+"Quantidade de dias para expiração do QRCode após impressão. OBS: Esse campo "
+"vazio, ficará com 2 dias de expiração."
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:94
+msgid "Status Pedido"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:100
+msgid "Altera o pedido no woocommerce quando está pago na AME."
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:104
+msgid "Logs"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:105
+msgid "Habilita os logs. Para visualizar: WooCommerce > Status > Logs"
+msgstr ""
+
+#: src/Services/Gateways/Pqad_QrCode.php:226
+msgid "Ame: Aguardando pagamento."
+msgstr ""
+
+#: views/checkout/order-error-received.php:18
+msgid "Entre em contato com a AME!"
+msgstr ""
+
+#: views/checkout/order-error-received.php:19
+msgid "O pedido foi cancelado!"
+msgstr ""
+
+#: views/checkout/order-mobile-received.php:16
+#: views/checkout/order-received.php:16
+msgid "Valor da compra:"
+msgstr ""
+
+#: views/checkout/order-mobile-received.php:23
+#: views/checkout/order-received.php:23
+msgid "Receba"
+msgstr ""
+
+#: views/checkout/order-mobile-received.php:25
+#: views/checkout/order-received.php:25
+msgid "em até 30 dias."
+msgstr ""
+
+#: views/checkout/order-mobile-received.php:29
+msgid "PAGAR"
+msgstr ""
+
+#: views/checkout/order-mobile-received.php:31
+msgid ""
+"Clique no botão acima para abrir o aplicativo <br> AME no celular e efetuar "
+"o pagamento."
+msgstr ""
+
+#: views/checkout/order-received.php:35
+msgid ""
+"Abra o aplicativo Ame em seu celular <br> e escaneie o código "
+"<strong>acima</strong>."
+msgstr ""
+
+#: views/orders/qrcode.php:15
+msgid "Ame Order ID: "
+msgstr ""
+
+#: views/orders/qrcode.php:20
+msgid "NSU/Código de Pagamento: "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pagamento QR Code Ame Digital"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Gateway de pagamento QR Code Ame Digital para WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Apiki"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://apiki.com/"
+msgstr ""
